@@ -1,0 +1,27 @@
+.movie {
+  margin: 50px 10px;
+  width: 300px;
+  display: flex;
+  background-color: whitesmoke;
+  position: relative;
+  padding-left: 120px;
+}
+.movie img {
+  position: absolute;
+  width: 100px;
+  top: -15px;
+  left: 10px;
+}
+.movie ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.movie li {
+  margin-right: 10px;
+}
+.movie__title {
+  padding-bottom: 0px;
+  text-decoration: none;
+}
